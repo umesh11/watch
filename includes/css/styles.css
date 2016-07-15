@@ -1,0 +1,118 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+footer{
+   background: #333;
+   color: #eee;
+   font-size: 14px;
+  }
+.imeg{
+  position:relative;
+  margin-right: 30px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+    #searchInput{
+      width:250px;
+   }
+   .navbar-brand{
+      padding-top:0px;
+      padding-right: 5px;
+      }
+      .navbar-text{
+         font-family: 'Passion One', cursive;
+         font-size: 50px; 
+         color:green;
+
+
+      }
+      .col-12 h2{
+        text-align: center;
+       
+       }
+       .col-12 h4{
+        text-align: left;
+        margin-left: 40px;
+        font-size: 40px;
+       }
+
+      
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+  #myCarousel{
+
+       height:620px;
+       width:75%;
+       margin:auto;
+     }
+
+
+#myCarousel .item{ 
+   height:620px;
+   background-color: black;
+}
+
+#slide1{
+   background:url('../../images/b1.jpg') top center no-repeat; 
+   }
+#slide2{
+   background:url('../../images/ace1.jpg') top center no-repeat;
+}
+#slide3{
+   background:url('../../images/aspen.png') top center  no-repeat;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+#no1
+{
+  font-size: 2em;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	background:url('../../images/ace1.jpg') top center no-repeat;
+   
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	background:url('../../images/ace1.jpg') top center no-repeat;
+ 
+
+}
